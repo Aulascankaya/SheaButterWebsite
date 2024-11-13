@@ -57,5 +57,6 @@ export const Skills = () => {
       </Slider>
       <div className="h-[1px] bg-lilac mt-8 mb-8 lg:mb-16"></div>
     </div>
-  );
+  ); 
 };
+ 
