@@ -110,13 +110,7 @@ export const Header = (/*{ lang, setLang }*/) => {
         <span className="text-gray-dark">|</span>
 
          {/* DİL SEÇME*/}
-        <a
-          href="#"
-          className="dark:text-lilac text-toggle-purple font-medium tracking-wider hover:shadow-md hover:shadow-dark-project-name"
-          onClick={() => handleClick(dataTR)}
-        >
-          <img className="w-5 h-5" src={tr} />
-        </a>
+        
         <a
           href="#"
           className="dark:text-lilac text-toggle-purple font-medium tracking-wider hover:shadow-md hover:shadow-dark-project-name"

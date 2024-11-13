@@ -67,28 +67,10 @@ export const dataDE = {
           description:
             "CSS (Cascading Style Sheets) ist eine Stilbeschreibungssprache, die zur Definition des Erscheinungsbilds und Layouts von HTML-Dokumenten verwendet wird.",
         },
-        {
-          name: "Tailwind CSS",
-          logo: "logoTailwind.png",
-          description:
-            "Tailwind CSS ist ein Utility-First CSS-Framework, das für moderne Webentwicklung verwendet wird.",
-        },
-        {
-          name: "Figma",
-          logo: "logoFigma.png",
-          description:
-            "Figma ist ein cloudbasiertes Design-Tool, das für Benutzeroberflächen- und Benutzererfahrungsgestaltung verwendet wird.",
-        },
-        {
-          name: "VS Code",
-          logo: "logoVScode.png",
-          description:
-            "Visual Studio Code (VS Code) ist ein leichter und leistungsstarker Quellcode-Editor, der von Microsoft entwickelt wurde.",
-        },
       ],
     },
     profile: {
-      title: "Profil",
+      title: "Über Uns",
       basicInformation: {
         title: "Grundinformationen",
         items: [
@@ -120,7 +102,7 @@ export const dataDE = {
       },
     },
     projects: {
-      title: "Projekte",
+      title: "Dr Okot-opiro",
       items: [
         {
           title: "Currency List App",
@@ -135,7 +117,7 @@ export const dataDE = {
         },
         {
           title: "Pizza Order",
-          image: "projectPizza.jpg",
+          image: "var-02.jpeg",
           description:
             "Dieses Projekt ist eine moderne und benutzerfreundliche Webanwendung, mit der Benutzer einfach Pizza bestellen können. Das Projekt wurde mit React und react-hook-form entwickelt. Das Bestellformular wird mit der react-hook-form Bibliothek erstellt, was eine sichere und effiziente Formularvalidierung gewährleistet.",
           technologies: ["React", "Redux", "Axios"],
@@ -146,7 +128,7 @@ export const dataDE = {
         },
         {
           title: "Netflix Mockup",
-          image: "projectNetflix.jpg",
+          image: "var-02.jpeg",
           description:
             "Dieses Projekt umfasst die Erstellung eines Mockups der Netflix-Benutzeroberfläche mit HTML und CSS, das eine effektive Nutzung dieser grundlegenden Webtechnologien demonstriert. Der Schwerpunkt liegt auf semantischen HTML-Strukturen und der Verwendung von CSS Flexbox für das Layout-Design. Ein responsives Design-Ansatz wurde für die mobile Kompatibilität angewendet.",
           technologies: ["HTML5", "CSS3"],
@@ -157,7 +139,7 @@ export const dataDE = {
         },
         {
           title: "Survivor Airship Game",
-          image: "projectAndroids.png",
+          image: "var-02.jpeg",
           description:
             "Survivor Airship ist ein 2D-Mobilspiel, bei dem der Spieler durch Tippen auf den Bildschirm ein Luftschiff steuert und feindlichen Objekten ausweicht. Das Spiel wurde für die Android-Plattform mit der GDX-Bibliothek entwickelt. Die Spieler sammeln Punkte, indem sie erfolgreich feindlichen Objekten ausweichen. Das Spiel endet, wenn ein feindliches Objekt getroffen wird.",
           technologies: ["Kotlin", "libGDX"],
@@ -168,7 +150,7 @@ export const dataDE = {
         },
         {
           title: "Andere Projekte",
-          image: "projectWeb.jpg",
+          image: "var-02.jpeg",
           description:
             "Eine Sammlung von Projekten, die verschiedene Technologien und Konzepte in der Entwicklung mit JavaScript, React, HTML, CSS, Kotlin und Java abdecken. Diese Projekte zeigen Kompetenz in modernen Web- und Android-Entwicklungsmethoden und behandeln Themen wie UI-Design, asynchrone Operationen, Datenmanagement und Architekturmuster.",
           technologies: ["JS", "React", "Kotlin", "..."],
