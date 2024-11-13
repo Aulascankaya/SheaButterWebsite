@@ -44,7 +44,7 @@ export const Skills = () => {
       </h2>
 
       {/* Skills haritalıyoruz */}
-      <Slider {...settings }>
+      <Slider {...settings}>
         {items.map((skill, index) => (
           <div key={index} className="pb-8 lg:pb-16">
             <div className="flex items-center space-x-2  ">
