@@ -1,15 +1,9 @@
 /* eslint-disable react/prop-types */
 
-import githubLight from "../assets/github.svg";
-import LinkedInLight from "../assets/LinkedIn.svg";
-import githubDark from "../assets/githubDark.svg";
-import LinkedInDark from "../assets/LinkedInDark.svg";
-import profil from "../assets/butter1.jpg"
-
-
 import { useSelector } from "react-redux";
+import profil from "../assets/butter1.jpg";
 
-export const Intro = (/*{lang}*/) => {
+export const Intro = () => {
   const darkMode = useSelector((state) => state.darkMode);
   const lang = useSelector((state) => state.language);
 
@@ -18,13 +12,9 @@ export const Intro = (/*{lang}*/) => {
     heading1,
     heading2,
     description,
-    hireMe,
-    github,
-    linkedin,
-    links,
   } = lang.introduction;
 
- // Scroll ile smooth geçiş
+  // Scroll ile smooth geçiş
   const scrollToFooter = () => {
     const footer = document.getElementById("footer");
     if (footer) {
@@ -48,14 +38,26 @@ export const Intro = (/*{lang}*/) => {
         <p className="mt-8 text-gray text-wrap dark:text-white lg:max-w-lg">
           {description}
         </p>
-        
       </div>
-      {/*İntro fotoğraf */}
-      <img
-        className="rounded-2xl mt-8 lg:mt-0 max-w-[476px] max-h-[375px] shadow-2xl  dark:shadow-lg dark:shadow-dark-project-name"
-        src={profil}
-        alt="Profile Photo "
-      />
+      
+      {/*İntro fotoğraf ve Buton */}
+      <div className="relative group">
+        <img
+          className="rounded-2xl mt-8 lg:mt-0 max-w-[476px] max-h-[375px] shadow-2xl dark:shadow-lg dark:shadow-dark-project-name"
+          src={profil}
+          alt="Profile"
+        />
+
+        {/* "Şimdi Satın Al" Butonu */}
+        <a
+          href="https://wa.me/905123456789"  // WhatsApp numarasını buraya ekleyin
+          className="absolute bottom-5 left-1/2 transform -translate-x-1/2 px-4 py-2 border border-navy-blue rounded-md text-navy-blue dark:bg-white hover:shadow-md hover:shadow-dark-project-name opacity-0 group-hover:opacity-100 transition-opacity"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Jetzt Kaufen
+        </a>
+      </div>
     </div>
   );
 };

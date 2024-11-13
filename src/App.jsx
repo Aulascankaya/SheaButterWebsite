@@ -12,6 +12,7 @@ import { Footer } from "./Components/Footer";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import axios from "axios";
+import WhatsappButton from "./Components/WhatsappButton";
 
 
 
@@ -51,6 +52,7 @@ function App() {
       <Profil  />
       <Projects  />
       <Footer  />
+      <WhatsappButton/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ export const dataDE = {
       language: "DE",
       skills: "Products",
       projects: "Über Uns",
-      hireMe: "Kontakt",
+      hireMe: "Jetzt Kaufen",
     },
     introduction: {
       name: "Dr. Okot-Opiro",
