@@ -23,7 +23,7 @@ export const Intro = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-x-6 max-w-[80%] xl:max-w-6xl m-auto py-16 place-content-between">
+    <div className="flex flex-col lg:flex-row gap-x-4 max-w-[80%] xl:max-w-6xl m-auto py-16 place-content-between">
       {/*İntro bilgiler */}
       <div className="text-left">
         <p className="mb-8 text-dark-purple dark:text-dark-mode-name">
@@ -43,10 +43,10 @@ export const Intro = () => {
       {/*İntro fotoğraf ve Buton */}
       <div className="relative group">
         <img
-          className="rounded-2xl mt-8 lg:mt-0 max-w-[476px] max-h-[375px] shadow-2xl dark:shadow-lg dark:shadow-dark-project-name"
+          className="rounded-2xl mt-4 lg:mt-0 max-w-[476px] max-h-[375px] shadow-2xl dark:shadow-lg dark:shadow-dark-project-name"
           src={profil}
           alt="Profile"
-          
+         
         />
         <a
           href="https://wa.me/905123456789"  // WhatsApp numarasını buraya ekleyin

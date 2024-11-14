@@ -13,7 +13,8 @@ export const Projects = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoPlay: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 1024,
@@ -45,8 +46,9 @@ export const Projects = () => {
       <Slider {...settings} className="text-light-mode">
         {items?.map((project, index) => (
           <div key={index} className="pb-8 lg:pb-16">
-            <img src={`./${project.image}`} alt={project.title} className="rounded-md" />
-            
+            <div className="relative w-[95%] h-[95%] m-auto">
+              <img src={`./${project.image}`} alt={project.title} className="rounded-md w-full h-full object-cover" />
+            </div>
           </div>
         ))}
       </Slider>

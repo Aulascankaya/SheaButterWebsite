@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 
 export const Footer = (/*{lang}*/) => {
   const lang = useSelector((state) => state.language);
-  const { contactHeader, contactEmail, personalBlog, github, linkedin, links } =
+  const { contactHeader, contactEmail, whatsApp, facebook, instagram, links,tiktok } =
     lang.footer;
 
   return (
@@ -18,31 +18,38 @@ export const Footer = (/*{lang}*/) => {
         </h2>
         <div className="flex flex-col lg:flex-row pt-16 pb-8">
           <a
-            className="text-mail-red dark:text-lilac text-left mb-16 lg:mb-0 mr-auto"
+            className="text-mail-red dark:text-lilac text-left mb-16 lg:mb-0 mr-auto hover:text-hover-yellow"
             href={`mailto:${contactEmail}`}
           >
             📨 <span className="underline">{contactEmail}</span>
           </a>
           <nav className="flex items-center space-x-4 lg:space-x-8 ml-auto">
+          
             <a
-              href={links.personalBlog}
-              className="text-black-heading dark:text-dark-mode-hire"
+              href={links.whatsApp}
+              className="text-whatsapp-green dark:text-dark-mode-hire hover:text-hover-yellow"
             >
-              {personalBlog}
+              {whatsApp}
             </a>
             <a
-              href={links.github}
-              className="text-green dark:text-dark-mode-green"
+              href={links.facebook}
+              className="text-facebook-blue dark:text-dark-mode-green hover:text-hover-yellow"
               target="_blank"
             >
-              {github}
+              {facebook}
             </a>
             <a
-              href={links.linkedin}
-              className="text-linkedin-blue dark:dark-mode-linkedin"
+              href={links.instagram}
+              className="text-instagram-orange dark:dark-mode-linkedin hover:text-hover-yellow"
               target="_blank"
             >
-              {linkedin}
+              {instagram}
+            </a>
+            <a
+              href={links.tiktok}
+              className="text-tiktok-pink dark:text-dark-mode-hire hover:text-hover-yellow"
+            >
+              {tiktok}
             </a>
           </nav>
         </div>

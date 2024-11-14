@@ -127,7 +127,7 @@ export const dataDE = {
       items: [
         {
           title: "Currency List App",
-          image: "var-02.jpeg",
+          image: "var-01.jpg",
           description:
             "Dieses Projekt ist eine Android-Anwendung, die mit Kotlin entwickelt wurde und die neuesten Wechselkurse mithilfe der Free Currency API abruft und anzeigt. Die App zeigt eine Liste von Währungen und deren entsprechenden Wechselkurse an, die Daten werden dynamisch durch API-Aufrufe aktualisiert. Die Daten werden in einer RecyclerView angezeigt, und das Klicken auf die Daten löst eine Detailansicht aus.",
           technologies: ["Kotlin", "API"],
@@ -138,7 +138,7 @@ export const dataDE = {
         },
         {
           title: "Pizza Order",
-          image: "var-02.jpeg",
+          image: "var-03.jpg",
           description:
             "Dieses Projekt ist eine moderne und benutzerfreundliche Webanwendung, mit der Benutzer einfach Pizza bestellen können. Das Projekt wurde mit React und react-hook-form entwickelt. Das Bestellformular wird mit der react-hook-form Bibliothek erstellt, was eine sichere und effiziente Formularvalidierung gewährleistet.",
           technologies: ["React", "Redux", "Axios"],
@@ -149,7 +149,7 @@ export const dataDE = {
         },
         {
           title: "Netflix Mockup",
-          image: "var-02.jpeg",
+          image: "var-04.jpg",
           description:
             "Dieses Projekt umfasst die Erstellung eines Mockups der Netflix-Benutzeroberfläche mit HTML und CSS, das eine effektive Nutzung dieser grundlegenden Webtechnologien demonstriert. Der Schwerpunkt liegt auf semantischen HTML-Strukturen und der Verwendung von CSS Flexbox für das Layout-Design. Ein responsives Design-Ansatz wurde für die mobile Kompatibilität angewendet.",
           technologies: ["HTML5", "CSS3"],
@@ -160,7 +160,7 @@ export const dataDE = {
         },
         {
           title: "Survivor Airship Game",
-          image: "var-02.jpeg",
+          image: "var-05.jpg",
           description:
             "Survivor Airship ist ein 2D-Mobilspiel, bei dem der Spieler durch Tippen auf den Bildschirm ein Luftschiff steuert und feindlichen Objekten ausweicht. Das Spiel wurde für die Android-Plattform mit der GDX-Bibliothek entwickelt. Die Spieler sammeln Punkte, indem sie erfolgreich feindlichen Objekten ausweichen. Das Spiel endet, wenn ein feindliches Objekt getroffen wird.",
           technologies: ["Kotlin", "libGDX"],
@@ -171,7 +171,7 @@ export const dataDE = {
         },
         {
           title: "Andere Projekte",
-          image: "var-02.jpeg",
+          image: "var-06.jpg",
           description:
             "Eine Sammlung von Projekten, die verschiedene Technologien und Konzepte in der Entwicklung mit JavaScript, React, HTML, CSS, Kotlin und Java abdecken. Diese Projekte zeigen Kompetenz in modernen Web- und Android-Entwicklungsmethoden und behandeln Themen wie UI-Design, asynchrone Operationen, Datenmanagement und Architekturmuster.",
           technologies: ["JS", "React", "Kotlin", "..."],
@@ -185,13 +185,15 @@ export const dataDE = {
     footer: {
       contactHeader: "Lassen Sie uns an Ihrem nächsten Produkt zusammenarbeiten.",
       contactEmail: "aulascankaya@gmail.com",
-      personalBlog: "Persönlicher Blog",
-      github: "Github",
-      linkedin: "LinkedIn",
+      whatsApp: "Whatsapp",
+      facebook: "Facebook",
+      instagram: "Instagram",
+      tiktok: "Tiktok",
       links: {
-        personalBlog: "#",
-        github: "https://github.com/Aulascankaya",
-        linkedin: "https://www.linkedin.com/in/ahmetulascankaya/",
+        tiktok:"https://tiktok.com",
+        whatsApp: "https://wa.me/491772294986",
+        facebook: "https://github.com/Aulascankaya",
+        instagram: "https://www.linkedin.com/in/ahmetulascankaya/",
       },
     },
     notifications: {
