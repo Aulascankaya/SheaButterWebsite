@@ -30,42 +30,63 @@ export const dataDE = {
           logo: "butter2.jpg",
           description:
             "JavaScript ist eine hochentwickelte, dynamische, schwach typisierte, objektorientierte und multiparadigmatische Programmiersprache, die weit verbreitet für die Webentwicklung verwendet wird.",
+          price: "€20",
+          details: "Hochwertige Sheabutter",
+          size: "200g"
         },
         {
           name: "React.Js",
           logo: "butter3.jpg",
           description:
             "React.js ist eine JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen (UI).",
+          price: "€25",
+          details: "Reine Sheabutter",
+          size: "250g"
         },
         {
           name: "Redux",
           logo: "butter4.jpg",
           description:
             "Redux ist eine Bibliothek, die zur Vereinfachung des Zustandsmanagements in JavaScript-Anwendungen verwendet wird.",
+          price: "€22",
+          details: "Bio-Sheabutter",
+          size: "220g"
         },
         {
           name: "Kotlin",
           logo: "butter3.jpg",
           description:
             "Kotlin ist eine moderne, statisch typisierte Programmiersprache, die von JetBrains entwickelt wurde.",
+          price: "€18",
+          details: "Unraffinierte Sheabutter",
+          size: "180g"
         },
         {
           name: "Java",
           logo: "butter3.jpg",
           description:
             "Java ist eine objektorientierte Programmiersprache, die in der Softwareentwicklung weit verbreitet ist.",
+          price: "€19",
+          details: "Raffinierte Sheabutter",
+          size: "190g"
         },
         {
           name: "HTML",
           logo: "butter3.jpg",
           description:
             "HTML (HyperText Markup Language) ist die Standard-Auszeichnungssprache, die zur Definition der Struktur und des Inhalts von Webseiten verwendet wird.",
+          price: "€21",
+          details: "Sheabutter mit Vitamin E",
+          size: "210g"
         },
         {
           name: "CSS",
           logo: "butter3.jpg",
           description:
             "CSS (Cascading Style Sheets) ist eine Stilbeschreibungssprache, die zur Definition des Erscheinungsbilds und Layouts von HTML-Dokumenten verwendet wird.",
+          price: "€23",
+          details: "Sheabutter mit Lavendel",
+          size: "230g"
         },
       ],
     },
