@@ -57,6 +57,7 @@ export default {
         'dark-bg': '#252128',
         'white': '#FFFFFF',
         'hover-yellow': '#f9ce35',
+        'header':'#ebebeb',
       },
     },
   },

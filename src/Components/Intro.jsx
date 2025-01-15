@@ -23,7 +23,7 @@ export const Intro = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-x-4 max-w-[80%] xl:max-w-6xl m-auto py-16 place-content-between">
+    <div className="flex flex-col lg:flex-row gap-x-4 max-w-[80%]  m-auto py-16 place-content-between">
       {/*İntro bilgiler */}
       <div className="text-left">
         <p className="mb-8 text-dark-purple dark:text-dark-mode-name">

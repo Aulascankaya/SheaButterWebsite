@@ -96,8 +96,8 @@ export const dataDE = {
         title: "Grundinformationen",
         items: [
           {
-            label: "Geburtsdatum",
-            value: "26.10.1993",
+            label: "sheabutter für die haut",
+            value: "schnelleinziehend feuchtigkeitsspendent pflegt macht die haut geschmeidig",
           },
           {
             label: "Wohnort",
@@ -114,11 +114,11 @@ export const dataDE = {
         ],
       },
       aboutMe: {
-        title: "Über mich",
+        title: "Produkte",
         paragraphs: [
-          "Ich bin ein Frontend-Entwickler mit einer Leidenschaft für kontinuierliches Lernen und Wachstum.",
-          "Nach meiner Tätigkeit als Manager in der Tourismusbranche habe ich mich entschlossen, meine Karriere in den Bereich der Softwareentwicklung zu verlagern.",
-          "Nachdem ich verschiedene Schulungen in unterschiedlichen Bereichen der Softwareentwicklung absolviert hatte, stellte ich fest, dass ich im Frontend-Entwicklung am erfolgreichsten bin und die größte Zufriedenheit finde. Ich strebe ständig danach, meine Fähigkeiten in diesem Bereich zu verbessern, um die Benutzererfahrung zu maximieren.",
+          "die sheabutter stammt von sheanüsssen aus einem alten baumbestand aus dersavanna nordugangdas. Hier gibt es keine industrie oder sontige luftverschmutzungen.",
+          "der norden des landes ist geprägt von grasssteppe und feuchten urwaldähnlichen gebieten mit altem baum bestannd. uganda hat die ältesten regenwälder der erde. wir suchen selbst die bäume für die ernte der sheanüsse aus und sind bei der produktion vor ort.",
+          "die ölpresse für die produktion stamm aus deutschland von der firma oecotec in bergisch gladbach."
         ],
       },
     },
@@ -127,7 +127,7 @@ export const dataDE = {
       items: [
         {
           title: "Currency List App",
-          image: "var-01.jpg",
+          image: "muster.jpg",
           description:
             "Dieses Projekt ist eine Android-Anwendung, die mit Kotlin entwickelt wurde und die neuesten Wechselkurse mithilfe der Free Currency API abruft und anzeigt. Die App zeigt eine Liste von Währungen und deren entsprechenden Wechselkurse an, die Daten werden dynamisch durch API-Aufrufe aktualisiert. Die Daten werden in einer RecyclerView angezeigt, und das Klicken auf die Daten löst eine Detailansicht aus.",
           technologies: ["Kotlin", "API"],

@@ -47,10 +47,11 @@ function App() {
     <div className={darkMode ? 'dark:bg-dark-bg' : 'bg-white'}>
       <ToastContainer />
       <Header  />
+      <Projects  />
       <Intro  />
       <Skills  />
       <Profil  />
-      <Projects  />
+      
       <Footer  />
       <WhatsappButton/>
     </div>

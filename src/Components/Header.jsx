@@ -33,6 +33,7 @@ export const Header = (/*{ lang, setLang }*/) => {
     });
   };
 
+
   //Scroll ile smooth geçiş
   const scrollToSection = (id) => {
 
@@ -84,15 +85,35 @@ export const Header = (/*{ lang, setLang }*/) => {
     lang.header;
 
   return (
-    <header className="flex flex-col max-w-[80%] xl:max-w-6xl m-auto justify-between">
-      {/* DARKMODE*/}
-      <div className="flex items-center space-x-2 ml-auto my-8">
+    <header className="flex justify-between items-center m-auto h-12 bg-header">
+      {/* LOGO */}
+      <div className="h-8 w-8 ml-2 rounded-full flex items-center justify-center bg-logo-lilac dark:bg-toggle-purple">
+        <span className="dark:text-dark-logo-font text-logo-purple transform">
+          <img src={logo} alt="logo" />
+        </span>
+      </div>
+      {/* NAVIGATION */}
+      <nav className="flex-1 flex justify-center space-x-2 lg:space-x-16">
+        <a onClick={() => scrollToSection("skills")} href="#" className="text-gray">
+          {skills}
+        </a>
+        <a onClick={() => scrollToSection("projects")} href="#" className="text-gray">
+          {projects}
+        </a>
+        <a
+          onClick={() => scrollToSection("footer")}
+          href="#"
+          className="text-navy-blue "
+        >
+          {hireMe}
+        </a>
+      </nav>
+      {/* DARK MODE AND LANGUAGE SELECTION */}
+      <div className="flex items-center space-x-2">
         <div
           className="relative w-10 h-5 flex items-center cursor-pointer transition-colors duration-300 rounded-full bg-toggle-purple dark:bg-toggle-gray"
           onClick={() => dispatch(toggleDarkMode())}
         >
-
-
           <div
             className="w-4 h-4 cursor-pointer transition-transform duration-300 transform"
             style={{
@@ -102,15 +123,10 @@ export const Header = (/*{ lang, setLang }*/) => {
             {darkMode ? <img src={moon} /> : <img src={sun} />}
           </div>
         </div>
-
         <span className="dark:text-light-mode text-gray-dark font-medium tracking-wider">
           {darkMode ? lightModeSwitch : darkModeSwitch}
         </span>
-
         <span className="text-gray-dark">|</span>
-
-         {/* DİL SEÇME*/}
-        
         <a
           href="#"
           className="dark:text-lilac text-toggle-purple font-medium tracking-wider hover:shadow-md hover:shadow-dark-project-name"
@@ -126,29 +142,6 @@ export const Header = (/*{ lang, setLang }*/) => {
           <img className="w-5 h-5" src={de} />
         </a>
       </div>
-         {/* NAVİGASYONLAR*/}
-      <nav className="flex items-center">
-        <div className="h-24 w-24 rounded-full flex items-center justify-center bg-logo-lilac dark:bg-toggle-purple mr-auto">
-          <span className="dark:text-dark-logo-font text-logo-purple transform ">
-            <img src={logo} alt="logo" />
-          </span>
-        </div>
-        <nav className="flex items-center space-x-2 lg:space-x-16 ml-auto">
-          <a onClick={() => scrollToSection("skills")} href="#" className="text-gray ">
-            {skills}
-          </a>
-          <a onClick={() => scrollToSection("projects")} href="#" className="text-gray ">
-            {projects}
-          </a>
-          <a
-             onClick={() => scrollToSection("footer")}
-            href="#"
-            className="text-navy-blue px-4 py-2 border border-navy-blue rounded-md dark:bg-white hover:shadow-md hover:shadow-dark-project-name"
-          >
-            {hireMe}
-          </a>
-        </nav>
-      </nav>
     </header>
   );
 };

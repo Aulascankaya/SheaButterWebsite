@@ -38,15 +38,15 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="text-left max-w-[80%] xl:max-w-6xl m-auto place-content-between"
+      className="text-left  m-auto place-content-between"
     >
-      <h2 className="font-bold text-black-heading dark:text-bluish-gray text-4xl mb-8">
+     {/*<h2 className="font-bold text-black-heading dark:text-bluish-gray text-4xl mb-8">
         {title}
-      </h2>
+      </h2> */} 
       <Slider {...settings} className="text-light-mode">
         {items?.map((project, index) => (
           <div key={index} className="pb-8 lg:pb-16">
-            <div className="relative w-[95%] h-[95%] m-auto">
+            <div className="relative w-full h-96 m-auto">
               <img src={`./${project.image}`} alt={project.title} className="rounded-md w-full h-full object-cover" />
             </div>
           </div>
