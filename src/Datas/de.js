@@ -138,7 +138,7 @@ export const dataDE = {
         },
         {
           title: "Pizza Order",
-          image: "var-03.jpg",
+          image: "muster2.webp",
           description:
             "Dieses Projekt ist eine moderne und benutzerfreundliche Webanwendung, mit der Benutzer einfach Pizza bestellen können. Das Projekt wurde mit React und react-hook-form entwickelt. Das Bestellformular wird mit der react-hook-form Bibliothek erstellt, was eine sichere und effiziente Formularvalidierung gewährleistet.",
           technologies: ["React", "Redux", "Axios"],
@@ -149,7 +149,7 @@ export const dataDE = {
         },
         {
           title: "Netflix Mockup",
-          image: "var-04.jpg",
+          image: "muster3.webp",
           description:
             "Dieses Projekt umfasst die Erstellung eines Mockups der Netflix-Benutzeroberfläche mit HTML und CSS, das eine effektive Nutzung dieser grundlegenden Webtechnologien demonstriert. Der Schwerpunkt liegt auf semantischen HTML-Strukturen und der Verwendung von CSS Flexbox für das Layout-Design. Ein responsives Design-Ansatz wurde für die mobile Kompatibilität angewendet.",
           technologies: ["HTML5", "CSS3"],

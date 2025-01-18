@@ -3,7 +3,7 @@ import { dataTR } from "../Datas/tr";
 import { dataEN } from "../Datas/en";
 import moon from "../assets/moon.svg";
 import sun from "../assets/sun.svg";
-import logo from "../assets/shealogo.png";
+import logo from "../assets/shealogo2.png";
 import { dataDE } from "../Datas/de";
 import tr from "../assets/tr.png";
 import en from "../assets/en.png";
@@ -91,6 +91,7 @@ export const Header = (/*{ lang, setLang }*/) => {
         <span className="dark:text-dark-logo-font text-logo-purple transform">
           <img src={logo} alt="logo" />
         </span>
+        
       </div>
       {/* NAVIGATION */}
       <nav className="flex-1 flex justify-center space-x-2 lg:space-x-16">
@@ -111,11 +112,11 @@ export const Header = (/*{ lang, setLang }*/) => {
       {/* DARK MODE AND LANGUAGE SELECTION */}
       <div className="flex items-center space-x-2">
         <div
-          className="relative w-10 h-5 flex items-center cursor-pointer transition-colors duration-300 rounded-full bg-toggle-purple dark:bg-toggle-gray"
+          className="relative w-8 h-4 flex items-center cursor-pointer transition-colors duration-300 rounded-full bg-toggle-purple dark:bg-toggle-gray"
           onClick={() => dispatch(toggleDarkMode())}
         >
           <div
-            className="w-4 h-4 cursor-pointer transition-transform duration-300 transform"
+            className="w-3 h-3 cursor-pointer transition-transform duration-300 transform"
             style={{
               transform: darkMode ? "translateX(30%)" : "translateX(125%)",
             }}
@@ -123,23 +124,23 @@ export const Header = (/*{ lang, setLang }*/) => {
             {darkMode ? <img src={moon} /> : <img src={sun} />}
           </div>
         </div>
-        <span className="dark:text-light-mode text-gray-dark font-medium tracking-wider">
+       {/*<span className="dark:text-light-mode text-gray-dark font-medium tracking-wider">
           {darkMode ? lightModeSwitch : darkModeSwitch}
-        </span>
+        </span> */} 
         <span className="text-gray-dark">|</span>
         <a
           href="#"
           className="dark:text-lilac text-toggle-purple font-medium tracking-wider hover:shadow-md hover:shadow-dark-project-name"
           onClick={() => handleClick(dataEN)}
         >
-          <img className="w-5 h-5" src={en} />
+          <img className="w-4 h-4" src={en} />
         </a>
         <a
           href="#"
           className="dark:text-lilac text-toggle-purple font-medium tracking-wider hover:shadow-md hover:shadow-dark-project-name"
           onClick={() => handleClick(dataDE)}
         >
-          <img className="w-5 h-5" src={de} />
+          <img className="w-4 h-4" src={de} />
         </a>
       </div>
     </header>
