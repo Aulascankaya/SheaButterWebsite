@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 
 export const Footer = (/*{lang}*/) => {
   const lang = useSelector((state) => state.language);
-  const { contactHeader, contactEmail, whatsApp, facebook, instagram, links,tiktok } =
+  const { contactHeader, contactEmail, whatsApp, facebook, instagram, weblink, links,tiktok } =
     lang.footer;
 
   return (
@@ -17,11 +17,12 @@ export const Footer = (/*{lang}*/) => {
           {contactHeader}
         </h2>
         <div className="flex flex-col lg:flex-row pt-16 pb-8">
+          
           <a
             className="text-mail-red dark:text-lilac text-left mb-16 lg:mb-0 mr-auto hover:text-hover-yellow"
-            href={`mailto:${contactEmail}`}
+            href={weblink}
           >
-            📨 <span className="underline">{contactEmail}</span>
+            📨 <span className="underline">{weblink}</span>
           </a>
           <nav className="flex items-center space-x-4 lg:space-x-8 ml-auto">
           

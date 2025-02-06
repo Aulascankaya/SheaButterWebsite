@@ -8,7 +8,7 @@ export const Profil = (/* {lang} */) => {
     const { title, basicInformation, aboutMe } = lang.profile;
 
     return (
-        <div className="text-left max-w-[80%] xl:max-w-6xl m-auto">
+        <div id="aboutMe" className="text-left max-w-[80%] xl:max-w-6xl m-auto">
             <h2 className="font-bold text-black-heading dark:text-bluish-gray text-4xl mb-4">{title}</h2>
             <div className="flex flex-col gap-x-16 lg:flex-row">
                 <div className="pb-8 lg:pb-16">

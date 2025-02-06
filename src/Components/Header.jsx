@@ -81,7 +81,7 @@ export const Header = (/*{ lang, setLang }*/) => {
     });
   };*/
 
-  const { lightModeSwitch, darkModeSwitch, skills, projects, hireMe } =
+  const { lightModeSwitch, darkModeSwitch, skills, projects,aboutMe, hireMe } =
     lang.header;
 
   return (
@@ -98,8 +98,8 @@ export const Header = (/*{ lang, setLang }*/) => {
         <a onClick={() => scrollToSection("skills")} href="#" className="text-gray">
           {skills}
         </a>
-        <a onClick={() => scrollToSection("projects")} href="#" className="text-gray">
-          {projects}
+        <a onClick={() => scrollToSection("aboutMe")} href="#" className="text-gray">
+          {aboutMe}
         </a>
         <a
           onClick={() => scrollToSection("footer")}

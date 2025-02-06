@@ -4,7 +4,7 @@ export const dataDE = {
       lightModeSwitch: "Heller Modus",
       language: "DE",
       skills: "Products",
-      projects: "Über Uns",
+      aboutMe: "Über Uns",
       hireMe: "Jetzt Kaufen",
     },
     introduction: {
@@ -96,31 +96,39 @@ export const dataDE = {
         title: "Grundinformationen",
         items: [
           {
-            label: "sheabutter für die haut",
-            value: "schnelleinziehend feuchtigkeitsspendent pflegt macht die haut geschmeidig",
+            label: "Wer wir sind",
+            value: "Wir sind ein Ehepaar aus Ärzten, das seit 20 Jahren auf der Insel Juist lebt und medizinische Dienstleistungen anbietet.",
           },
           {
-            label: "Wohnort",
-            value: "Emden",
+            label: "Unser Beruf",
+            value: "Ärzte mit langjähriger Erfahrung in der Patientenversorgung und alternativen Heilmethoden.",
           },
           {
-            label: "Bildung",
-            value: "Süleyman Demirel Universität. Informatik",
+            label: "Warum wir diese Sheabutter herstellen",
+            value: "Unsere Sheabutter wird aus natürlichen Sheanüssen aus Uganda handgefertigt. Sie verbindet traditionelle afrikanische Hautpflege mit medizinischem Fachwissen, um eine tief pflegende, natürliche Hautlösung anzubieten.",
           },
           {
-            label: "Bevorzugte Rolle",
-            value: "Softwareentwickler, Frontend-Entwickler, Android-Entwickler",
+            label: "Unsere Erfahrung",
+            value: "Seit zwei Jahrzehnten bieten wir medizinische Versorgung auf Juist an und engagieren uns für nachhaltige Gesundheitspflege.",
           },
-        ],
+          {
+            label: "Unser soziales Engagement",
+            value: "Wir arbeiten mit einer Hilfsorganisation in Uganda zusammen, um benachteiligten Kindern Zugang zu Bildung und Gesundheitsversorgung zu ermöglichen.",
+          },
+        ]
+
       },
       aboutMe: {
         title: "Produkte",
         paragraphs: [
-          "die sheabutter stammt von sheanüsssen aus einem alten baumbestand aus dersavanna nordugangdas. Hier gibt es keine industrie oder sontige luftverschmutzungen.",
-          "der norden des landes ist geprägt von grasssteppe und feuchten urwaldähnlichen gebieten mit altem baum bestannd. uganda hat die ältesten regenwälder der erde. wir suchen selbst die bäume für die ernte der sheanüsse aus und sind bei der produktion vor ort.",
-          "die ölpresse für die produktion stamm aus deutschland von der firma oecotec in bergisch gladbach."
+          "Unsere Sheabutter stammt aus den wertvollen Sheanüssen, die in den unberührten Savannen Nordugandas wachsen. Diese Region ist frei von industrieller Verschmutzung und umweltbelastenden Einflüssen, was die Qualität und Reinheit unserer Sheabutter garantiert.",
+          "Der Norden Ugandas ist geprägt von weitläufigen Grassteppen und feuchten, urwaldähnlichen Gebieten mit jahrhundertealten Bäumen. Uganda beherbergt einige der ältesten Regenwälder der Welt. Wir legen großen Wert auf Nachhaltigkeit und wählen die Bäume für die Ernte der Sheanüsse persönlich aus. Dabei achten wir darauf, nur reife Nüsse zu verwenden, um die natürliche Regeneration der Bäume zu unterstützen. Unser Produktionsprozess beginnt direkt vor Ort, um höchste Qualität und Frische zu gewährleisten.",
+          "Die Sheanüsse werden schonend verarbeitet, um ihre wertvollen Inhaltsstoffe zu bewahren. Unsere Ölpresse, die aus Deutschland stammt, wurde von der Firma Oecotec in Bergisch Gladbach speziell für eine nachhaltige und effiziente Verarbeitung entwickelt. Dank dieser hochwertigen Technik können wir eine besonders reine und nährstoffreiche Sheabutter herstellen, die sowohl für die Hautpflege als auch für therapeutische Anwendungen bestens geeignet ist.",
+          "Unsere Sheabutter ist ein echtes Naturprodukt – ohne künstliche Zusätze, Duftstoffe oder Konservierungsmittel. Sie zieht schnell ein, spendet intensive Feuchtigkeit und macht die Haut geschmeidig. Durch die Kombination aus traditioneller afrikanischer Handwerkskunst und moderner Technologie entsteht ein hochwertiges Produkt, das die Kraft der Natur in ihrer reinsten Form bewahrt.",
+          "Mit jedem Kauf unserer Sheabutter unterstützen Sie nicht nur Ihre Hautgesundheit, sondern auch soziale Projekte in Uganda. Ein Teil der Einnahmen fließt in Bildungs- und Gesundheitsinitiativen für benachteiligte Kinder, um ihnen eine bessere Zukunft zu ermöglichen."
         ],
-      },
+      }
+
     },
     projects: {
       title: "Dr Okot-opiro",
@@ -185,6 +193,7 @@ export const dataDE = {
     footer: {
       contactHeader: "Lassen Sie uns an Ihrem nächsten Produkt zusammenarbeiten.",
       contactEmail: "aulascankaya@gmail.com",
+      weblink:"https://www.naume-kinderstiftung.de/",
       whatsApp: "Whatsapp",
       facebook: "Facebook",
       instagram: "Instagram",
